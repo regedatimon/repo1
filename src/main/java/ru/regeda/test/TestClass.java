@@ -74,6 +74,7 @@ public class TestClass {
                 trail.add(dep);
                 ArrayList<Integer> localtrail = new ArrayList<Integer>(trail);
                 buildTrail(root, graph.get(dep), localtrail);
+                trail.remove(dep);
             }
         }
     }
