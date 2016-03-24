@@ -1,4 +1,6 @@
 # repo1
-Для запуска программы выполнить команды:
-mvn clean package
-java -jar test-task-1.0-SNAPSHOT.jar
+Для сборки проекта выполнить команду:
+> mvn clean package
+
+Запуск:
+> java -jar test-task-1.0-SNAPSHOT.jar
